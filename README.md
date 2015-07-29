@@ -11,7 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-bitbucket
+    $ npm install passport-bitbucket-oauth2
 
 ## Usage
 
