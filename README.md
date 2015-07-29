@@ -54,14 +54,12 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-bitbucket/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/bithound/passport-bitbucket-oauth2/tree/master/examples/login).
 
 ## Tests
 
     $ npm install --dev
     $ make test
-
-[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-bitbucket.png)](http://travis-ci.org/jaredhanson/passport-bitbucket)
 
 ## Credits
 
