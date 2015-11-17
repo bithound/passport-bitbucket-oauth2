@@ -1,20 +1,24 @@
 {
-  "name": "passport-bitbucket-oauth2",
-  "version": "0.1.1",
+  "name": "jem-passport-bitbucket-oauth2",
+  "version": "0.2.0",
   "description": "Bitbucket OAuth2 authentication strategy for Passport.",
   "keywords": ["passport", "bitbucket", "auth", "authn", "authentication", "identity"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bithound/passport-bitbucket-oauth2.git"
+    "url": "git://github.com/jemsoft/jem-passport-bitbucket-oauth2.git"
   },
   "bugs": {
-    "url": "http://github.com/bithound/passport-bitbucket-oauth2/issues"
+    "url": "http://github.com/jemsoft/jem-passport-bitbucket-oauth2/issues"
   },
-  "author": {
+  "contributors": [{
     "name": "Gord Tanner",
     "email": "gtanner@gmail.com",
     "url": "http://bithound.io"
-  },
+  }, {
+    "name": "Dylan Lundy",
+    "email": "dylan.lundy@jemsoft.co",
+    "url": "jemsoft.co"
+  }],
   "licenses": [ {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 

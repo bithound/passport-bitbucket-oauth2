@@ -11,7 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-bitbucket-oauth2
+    $ npm install jem-passport-bitbucket-oauth2
 
 ## Usage
 
@@ -54,7 +54,7 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/bithound/passport-bitbucket-oauth2/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/jemsoft/jem-passport-bitbucket-oauth2/tree/master/examples/login).
 
 ## Tests
 
@@ -63,6 +63,7 @@ For a complete, working example, refer to the [login example](https://github.com
 
 ## Credits
 
+  - [Jemsoft](http://github.com/jemsoft)
   - [Gord Tanner](http://github.com/gtanner)
   - [Jared Hanson](http://github.com/jaredhanson)
 
