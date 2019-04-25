@@ -92,11 +92,11 @@ vows.describe('BitbucketStrategy').addBatch({
               } \
             ], \
             "user": { \
-                "username": "jaredhanson", \
+                "nickname": "jaredhanson", \
                 "first_name": "Jared", \
                 "last_name": "Hanson", \
                 "avatar": "https://secure.gravatar.com/avatar/6c43616eef331e8ad08c7f90a51069a5?d=identicon&s=32", \
-                "resource_uri": "/1.0/users/jaredhanson" \
+                "resource_uri": "/2.0/users/jaredhanson" \
             } \
         }';
         
@@ -123,7 +123,7 @@ vows.describe('BitbucketStrategy').addBatch({
       },
       'should load profile' : function(err, profile) {
         assert.equal(profile.provider, 'bitbucket');
-        assert.equal(profile.username, 'jaredhanson');
+        assert.equal(profile.nickname, 'jaredhanson');
         assert.equal(profile.displayName, 'Jared Hanson');
         assert.equal(profile.name.familyName, 'Hanson');
         assert.equal(profile.name.givenName, 'Jared');
